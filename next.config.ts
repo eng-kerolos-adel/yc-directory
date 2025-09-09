@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreBuildErrors: true,
-  },
   transpilePackages: ["sanity-plugin-markdown"],
   images: {
     dangerouslyAllowSVG: true,
@@ -19,7 +16,7 @@ const nextConfig: NextConfig = {
     ],
   },
   devIndicators: {
-    buildActivityPosition: "bottom-right",
+    position: "bottom-right",
   },
 };
 
