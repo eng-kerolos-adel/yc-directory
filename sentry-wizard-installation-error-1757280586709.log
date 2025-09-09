@@ -1,0 +1,6 @@
+npm error code ENOTEMPTY
+npm error syscall rmdir
+npm error path D:\nextjs-course\node_modules\next\dist\server
+npm error errno -4051
+npm error ENOTEMPTY: directory not empty, rmdir 'D:\nextjs-course\node_modules\next\dist\server'
+npm error A complete log of this run can be found in: C:\Users\start\AppData\Local\npm-cache\_logs\2025-09-07T21_24_41_567Z-debug-0.log
